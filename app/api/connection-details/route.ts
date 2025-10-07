@@ -2,9 +2,9 @@ import { NextResponse } from 'next/server';
 import { AccessToken, type AccessTokenOptions, type VideoGrant } from 'livekit-server-sdk';
 import { RoomConfiguration } from '@livekit/protocol';
 
-const LIVEKIT_URL = "wss://voice-agent.clickpe.ai";
-const API_KEY = "APInTFd68MNqmqR";
-const API_SECRET = "ipFsgeyUzl7YHIWkfbXeeuGzxVzimAeRpXezrOuM3GeI";
+const LIVEKIT_URL = 'wss://voice-agent.clickpe.ai';
+const API_KEY = 'APInTFd68MNqmqR';
+const API_SECRET = 'ipFsgeyUzl7YHIWkfbXeeuGzxVzimAeRpXezrOuM3GeI';
 
 // don't cache the results
 export const revalidate = 0;
