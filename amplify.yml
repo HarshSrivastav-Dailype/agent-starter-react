@@ -3,13 +3,13 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install -g pnpm   # Install pnpm globally
-        - pnpm install          # Then install dependencies
+        - npm install -g pnpm
+        - pnpm install
     build:
       commands:
-        - pnpm run build         # Build your frontend
+        - pnpm run build
   artifacts:
-    baseDirectory: build
+    baseDirectory: .next
     files:
       - '**/*'
   cache:
